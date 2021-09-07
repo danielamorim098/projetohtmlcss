@@ -57,3 +57,38 @@ a::before{
     color: black;
 
 }
+
+section{
+    background: #3A4042;
+    display: inline-block;  
+    position: absolute;
+    width: 627px;
+    height: 184px;
+    left: 91px;
+    top: 196px;
+    box-shadow: 5px 5px 0px #000000
+}
+
+h2{
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    color: #f90026;
+    font-weight: 400px;
+    line-height: 90px;
+    letter-spacing: 0em;
+    text-align: center; 
+    text-shadow: 5px 5px 0px #000000;       
+}
+
+h3{
+    font-family: "Press Start 2P", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFF;
+    text-shadow: 4px 4px 0px #000000;
+
+}
