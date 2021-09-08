@@ -59,8 +59,7 @@ a::before{
 }
 
 section{
-    background: #3A4042;
-    display: inline-block;  
+    background: #3A4042; 
     position: absolute;
     width: 627px;
     height: 184px;
@@ -90,5 +89,38 @@ h3{
     text-align: center;
     color: #FFF;
     text-shadow: 4px 4px 0px #000000;
+}
 
+.btn1{
+    font-family: "Fira Code", sans-serif;
+    color: #FFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    height: 60px;
+    width: 170px;
+    left: 181px;
+    top: 418px;
+    border: none;
+    position: absolute;
+    background-color: #f90026;
+    box-shadow: 5px 5px 0px #000000;
+}
+
+.btn2{
+    font-family: "Fira Code", sans-serif;
+    color: #FFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    height: 60px;
+    width: 170px;
+    left: 463px;
+    top: 418px;
+    border: none;
+    position: absolute;
+    background-color: #f90026;
+    box-shadow: 5px 5px 0px #000000;
 }
