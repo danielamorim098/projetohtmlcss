@@ -14,12 +14,13 @@
         <link rel="stylesheet" href="css/reset.css"> <!--o ideal é o link do reset vir antes do css para não dar bug-->
         <link rel="stylesheet" href="css/index.css"> <!-- rel é usado para linkar e ela não linka apenas o css, mas como outras coisas também
             href pq indica um caminho, depois é indicado o nome da pasta / e o nome do arquivo-->
+        <link rel="stylesheet" href="css/components/title.css">
+        <link rel="stylesheet" href="css/components/subtitle.css">
+        <link rel="stylesheet" href="css/components/box.css">
     </head>
-
     <body>
         <header>
-            <h1>Daniel</h1>
-           <!--<img src="assets/img/canvas.png" alt="Avatar do Marco Bruno"> --> 
+           <img src="assets/img/canvas.png" alt="Avatar do Marco Bruno"> 
             <nav>
                 <a href="" lang="en" >Skills</a>
                 <a href="">Projetos</a>
@@ -28,11 +29,9 @@
                 <a id = "button" class="button" href="" lang="en">Download CV</a> <!--só pode ter esse id (button) na página, se tiver outro botão, terá que ter outro id-->
             </nav>         
         </header>
-        <section>
-            <h2>Daniel Amorim</h2>
-            <h3>Projeto FrontEnd</h3>
-        </section>
-        <button class="btn1">Download CV</button>
-        <button class="btn2">Contatos</button>
+        <div id="box">
+            <h1>Daniel Amorim</h1> 
+            <h2>Projeto FrontEnd</h2>
+        </div>
     </body>
 </html>

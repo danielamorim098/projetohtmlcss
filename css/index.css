@@ -45,82 +45,13 @@ a::before{
     /*padding-left: 20px;*/
     padding: 18px 20px;
     box-shadow: 5px 5px 0px #000000; /*essa prorpiedade faz a sombra, ele copia o desenho da caixa*/
-    /*os dois primeiros tem relação com os eixos (x, y) e o outro é sobre...*/
+    /*os dois primeiros tem relação com os eixos (x, y) e o outro é sobre o blur*/
     margin-right: 0;
     transition: 100ms linear;
-
 }
 
 #button:hover{
     transform: scale(1.1); /*essa propriedade muda o tamanho do elemento, da mesma forma que eu queria fazer alterando o padding*/
     background-color: gold;
     color: black;
-
-}
-
-section{
-    background: #3A4042; 
-    position: absolute;
-    width: 627px;
-    height: 184px;
-    left: 91px;
-    top: 196px;
-    box-shadow: 5px 5px 0px #000000
-}
-
-h2{
-    font-family: "Press Start 2P", sans-serif;
-    font-size: 40px;
-    font-style: normal;
-    color: #f90026;
-    font-weight: 400px;
-    line-height: 90px;
-    letter-spacing: 0em;
-    text-align: center; 
-    text-shadow: 5px 5px 0px #000000;       
-}
-
-h3{
-    font-family: "Press Start 2P", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 30px;
-    text-align: center;
-    color: #FFF;
-    text-shadow: 4px 4px 0px #000000;
-}
-
-.btn1{
-    font-family: "Fira Code", sans-serif;
-    color: #FFF;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 26px;
-    height: 60px;
-    width: 170px;
-    left: 181px;
-    top: 418px;
-    border: none;
-    position: absolute;
-    background-color: #f90026;
-    box-shadow: 5px 5px 0px #000000;
-}
-
-.btn2{
-    font-family: "Fira Code", sans-serif;
-    color: #FFF;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 26px;
-    height: 60px;
-    width: 170px;
-    left: 463px;
-    top: 418px;
-    border: none;
-    position: absolute;
-    background-color: #f90026;
-    box-shadow: 5px 5px 0px #000000;
 }

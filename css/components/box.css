@@ -1,0 +1,13 @@
+#box{
+    background-color: #3A4042;
+    display: inline-block; /*a div tem comportamento display block, então sem width ela ocupa a linha inteira*/
+    /*width: 630px; depois de transformar a div em inline-block, o padding pode definir a largura */
+    /*height: 184px; como foi incluído o padding a altura já não é mais necessária, agora os filhos que definem a altura do elemento*/
+    box-shadow: 10px 10px 0 #000;
+    text-align: center;
+    padding: 42px 44px; /*42 define a parte de cima e a debaixo, e 44 define a esquerda e a direita*/
+}
+
+#box h1{
+    margin-bottom: 28px;
+}
