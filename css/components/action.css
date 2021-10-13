@@ -1,0 +1,17 @@
+.action {
+    display: inline-flex; /*deixa os itens um do lado do outro*/
+    align-items: center; /*alinha os itens com as caixinhas*/
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px; /*margim "empurra" o espaço do elemento para o lado que é indicado, nesse caso para a direita*/    
+}
+
+.action::before{
+    content: "";
+    background-color: #f90026;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
