@@ -1,0 +1,21 @@
+.button{
+    display: inline-block; /*o display inline é uma propriedade que vem por padrão e não permite alterar a largura e altura no css, por isso usar o block*/
+    background-color: #f90026;
+    /*height: 60px;*/
+    /*line-height: 60px; *//*isso aqui serve para centralizar o texto dentro do botão, a linha sempre será igual a altura da caixa, isso só funciona quando tiver uma linha*/
+    /*padding-left: 20px;*/
+    padding: 18px 20px;
+    box-shadow: 5px 5px 0px #000000; /*essa prorpiedade faz a sombra, ele copia o desenho da caixa*/
+    /*os dois primeiros tem relação com os eixos (x, y) e o outro é sobre o blur*/
+    margin-right: 0;
+    transition: 100ms linear;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.button:hover{
+    transform: scale(1.1); /*essa propriedade muda o tamanho do elemento, da mesma forma que eu queria fazer alterando o padding*/
+    background-color: gold;
+    color: black;
+}
