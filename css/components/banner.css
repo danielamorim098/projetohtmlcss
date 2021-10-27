@@ -3,7 +3,7 @@
     background-image: url(../../assets/img/photo.png); /* "../" - indica para o css que estamos saindo da pasta que este arquivo se encontra*/
     background-repeat: no-repeat;
     background-size: 100%; /*esse 100% é para que a imagem ocupe toda a section*/
-    height: 750px;
+    height: 800px;
     border-bottom: 10px solid #000;
     padding-top: 115px;
     padding-left: 90px;/*foi usado padding top e left foram colocadas no banner para não alterar o comportamento do box e para não deixar um 
