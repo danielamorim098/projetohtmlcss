@@ -4,3 +4,10 @@
     color: #f90026;
     text-shadow: 4px 4px 0px #000000;       
 }
+
+/*não usar espaço entre o title e o second, pois isso é seletor de filho e o .title.-second não é filho da classe title, mas um elemento próprio*/
+.title.-second{
+    color: #fff;
+    text-shadow: none;
+    text-align: center;
+}

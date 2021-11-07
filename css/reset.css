@@ -6,10 +6,6 @@ body{
     font-family: "Fira Code", Arial, Helvetica, sans-serif; /*essas outras fontes serão utilizadas caso a Fira Code não carregue*/
 }
 
-.banner{
-    width: 1494px; /*width na mesma medida que estava no devtools do Marco*/
-}
-
 button{
     border: none;
     font-family: inherit;
