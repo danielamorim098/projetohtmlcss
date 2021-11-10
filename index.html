@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="css/reset.css"> <!--o ideal é o link do reset vir antes do css para não dar bug-->
        <!-- rel é usado para linkar e ela não linka apenas o css, mas como outras coisas também
             href pq indica um caminho, depois é indicado o nome da pasta / e o nome do arquivo-->
-        <link rel="stylesheet" href="css/components/title.css">
+        <link rel="stylesheet" href="css/components/main-title.css">
         <link rel="stylesheet" href="css/components/subtitle.css">
         <link rel="stylesheet" href="css/components/box.css">
         <link rel="stylesheet" href="css/components/button.css">
@@ -22,6 +22,8 @@
         <link rel="stylesheet" href="css/components/header.css">
         <link rel="stylesheet" href="css/components/banner.css">
         <link rel="stylesheet" href="css/components/section.css">
+        <link rel="stylesheet" href="css/components/skill-tec.css">
+        <link rel="stylesheet" href="css/components/progress-bar.css">
     </head>
     <body>
         <header class="header">
@@ -37,7 +39,7 @@
         <section class="banner">
             <div class="wrapper">
                 <div class="box">
-                    <h1 class="title">Daniel Amorim</h1> 
+                    <h1 class="main-title">Daniel Amorim</h1> 
                     <h2 class="subtitle">Projeto FrontEnd</h2>
                 </div>
                 <div class="navigation">
@@ -49,7 +51,14 @@
         <section class="section">
                 <!--variação do componente title, pode ser usado - ou _-->
                 <!--é possível criar mais de uma classe no atributo class -->
-                <h2 class="title -second">Skills</h2>
+                <h2 class="main-title -second">Skills</h2>
+                <article class="skill-tec"> 
+                    <img class="icon" src="img/ico_html5.png" alt="Logo do HTML5 em pixel art">
+                    <div class="right">
+                        <h3 class="title">HTML</h3> 
+                        <progress class="progress-bar" max="100" value="70">70%</progress>
+                    </div>
+                </article>
         </section>
     </body>
 </html>
