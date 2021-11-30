@@ -1,4 +1,4 @@
-.box{
+.wrapper-box{
     background-color: #3A4042;
     display: inline-block; /*a div tem comportamento display block, então sem width ela ocupa a linha inteira*/
     /*width: 630px; depois de transformar a div em inline-block, o padding pode definir a largura */
@@ -8,6 +8,6 @@
     padding: 42px 44px; /*42 define a parte de cima e a debaixo, e 44 define a esquerda e a direita*/
 }
 
-.box .title{
+.wrapper-box .main-title{
     margin-bottom: 28px;
 }

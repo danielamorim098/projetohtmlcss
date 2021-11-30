@@ -1,4 +1,4 @@
-.action {
+.action-menu {
     display: inline-flex; /*deixa os itens um do lado do outro*/
     align-items: center; /*alinha os itens com as caixinhas*/
     color: #FFF;
@@ -8,7 +8,7 @@
     margin-right: 30px; /*margim "empurra" o espaço do elemento para o lado que é indicado, nesse caso para a direita*/    
 }
 
-.action::before{
+.action-menu::before{
     content: "";
     background-color: #f90026;
     width: 10px;

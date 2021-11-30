@@ -1,4 +1,4 @@
-.header {
+.header-menu {
     display: flex;
     justify-content: space-between; /*deixa os elementos do header nas extremidades*/
     background-color: #1a47e7; 

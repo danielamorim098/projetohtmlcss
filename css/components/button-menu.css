@@ -1,4 +1,4 @@
-.button{
+.button-menu{
     display: inline-block; /*o display inline é uma propriedade que vem por padrão e não permite alterar a largura e altura no css, por isso usar o block*/
     background-color: #f90026;
     padding: 18px 20px;
@@ -11,7 +11,7 @@
     text-decoration: none;
 }
 
-.button:hover{
+.button-menu:hover{
     transform: scale(1.1); /*essa propriedade muda o tamanho do elemento, da mesma forma que eu queria fazer alterando o padding*/
     color: black;
 }

@@ -6,18 +6,18 @@
     align-items: center;
 }
 
-.skill-tec .icon{
+.skill-tec .icon-tec{
     margin-right: 25px;
     width: 90px; 
 }
 
-.skill-tec .right{
+.skill-tec .right-tec{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
 
-.skill-tec .title{
+.skill-tec .title-tec{
     margin-bottom: 10px;
 }

@@ -1,0 +1,14 @@
+.skill-section.-projects{
+    background-color: #000;
+    border-bottom: 10px solid #F90026;
+}
+
+.wrapper-project{
+    margin: 140px;
+    margin-bottom: 100px;
+    margin-right: 148px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
