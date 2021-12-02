@@ -1,0 +1,11 @@
+/*importante colocar o ponto para o css saber que é um seletor class e não de tag*/
+.skill-section{
+    background-color: #F90026;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    border-bottom: 10px solid #7C5e99;
+}
+
+.skill-section .main-title{
+    margin-bottom: 60px;
+}
