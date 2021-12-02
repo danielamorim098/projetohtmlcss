@@ -15,42 +15,42 @@
        <!-- rel é usado para linkar e ela não linka apenas o css, mas como outras coisas também
             href pq indica um caminho, depois é indicado o nome da pasta / e o nome do arquivo-->
         <link rel="stylesheet" href="css/components/main-title.css">
-        <link rel="stylesheet" href="css/components/subtitle.css">
-        <link rel="stylesheet" href="css/components/box.css">
-        <link rel="stylesheet" href="css/components/button.css">
-        <link rel="stylesheet" href="css/components/action.css">
-        <link rel="stylesheet" href="css/components/header.css">
-        <link rel="stylesheet" href="css/components/banner.css">
-        <link rel="stylesheet" href="css/components/section.css">
+        <link rel="stylesheet" href="css/components/box-subtitle.css">
+        <link rel="stylesheet" href="css/components/wrapper-box.css">
+        <link rel="stylesheet" href="css/components/button-menu.css">
+        <link rel="stylesheet" href="css/components/action-menu.css">
+        <link rel="stylesheet" href="css/components/header-menu.css">
+        <link rel="stylesheet" href="css/components/section-banner.css">
+        <link rel="stylesheet" href="css/components/skill-section.css">
         <link rel="stylesheet" href="css/components/skill-tec.css">
         <link rel="stylesheet" href="css/components/progress-bar.css">
         <link rel="stylesheet" href="css/components/wrapper-skill.css">
         <link rel="stylesheet" href="css/components/class-project.css">
     </head>
     <body>
-        <header class="header">
+        <header class="header-menu">
            <img src="assets/img/canvas.png" alt="Avatar do Marco Bruno"> 
             <nav>
-                <a class="action" href="" lang="en" >Skills</a>
-                <a class="action" href="">Projetos</a>
-                <a class="action" href="">Sobre</a>
-                <a class="action" href="">Contatos</a>
-                <a class="button"  href="" lang="en">Download CV</a> <!--só pode ter esse id (button) na página, se tiver outro botão, terá que ter outro id-->
+                <a class="action-menu" href="" lang="en" >Skills</a>
+                <a class="action-menu" href="">Projetos</a>
+                <a class="action-menu" href="">Sobre</a>
+                <a class="action-menu" href="">Contatos</a>
+                <a class="button-menu"  href="" lang="en">Download CV</a> <!--só pode ter esse id (button) na página, se tiver outro botão, terá que ter outro id-->
             </nav>         
         </header>
-        <section class="banner">
-            <div class="wrapper">
-                <div class="box">
+        <section class="section-banner">
+            <div class="banner-wrapper">
+                <div class="wrapper-box">
                     <h1 class="main-title">Daniel Amorim</h1> 
-                    <h2 class="subtitle">Projeto FrontEnd</h2>
+                    <h2 class="box-subtitle">Projeto FrontEnd</h2>
                 </div>
-                <div class="navigation">
-                    <a class="button" href="" lang="en">Download CV</a> 
-                    <a class="button"  href="">Contatos</a>
+                <div class="wrapper-navigation">
+                    <a class="button-menu" href="" lang="en">Download CV</a> 
+                    <a class="button-menu"  href="">Contatos</a>
                 </div>
             </div>
         </section>
-        <section class="section">
+        <section class="skill-section">
                 <!--variação do componente title, pode ser usado - ou _-->
                 <!--é possível criar mais de uma classe no atributo class -->
             <h2 class="main-title -second">Skills</h2>
@@ -113,7 +113,7 @@
                 </article>
             </div> 
         </section>
-        <section class="section"> 
+        <section class="skill-section"> 
             <figure class="card-project">
                 <img src="img/logo-firedlabs.png" alt="Logo da FiredLabs">
             </figure>
