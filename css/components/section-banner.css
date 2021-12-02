@@ -1,0 +1,28 @@
+.section-banner{
+    box-sizing: border-box;
+    background-image: url(../../assets/img/photo.png); /* "../" - indica para o css que estamos saindo da pasta que este arquivo se encontra*/
+    background-repeat: no-repeat;
+    background-size: 110%; /*esse 110% é para que a imagem ocupe toda a section. 110 pq com 100 ficava um espaço em branco*/
+    height: 800px;
+    border-bottom: 10px solid #000;
+    padding-top: 115px;
+    padding-left: 90px;/*foi usado padding top e left foram colocadas no banner para não alterar o comportamento do box e para não deixar um 
+    espaço em branco no banner caso fosse usado o margin*/
+}
+
+/*elemento pai + espaço + elemento filho*/
+.section-banner .banner-wrapper{
+    display: flex;
+    flex-direction: column; /*o padrão é row(fileira), assim os elementos ficamum de baixo do outro*/
+    width: 640px;
+}
+
+.section-banner .wrapper-box{
+    margin-bottom: 40px;    
+}
+
+.section-banner .wrapper-navigation{
+    display: flex; /*como o objetivo é deixar os botões na mesma linha(um do lado do outro) não é necessário mudar o flex-direction
+    que por padrão tem comportamento row*/ 
+    justify-content: space-around; /*muda o posicionamento dos botões*/
+}
